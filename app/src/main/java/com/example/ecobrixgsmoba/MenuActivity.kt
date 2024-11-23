@@ -15,7 +15,7 @@ class MenuActivity : AppCompatActivity() {
         val btnEditarDados: Button = findViewById(R.id.btnEditarDados)
 
         btnInserirDados.setOnClickListener {
-            val intent = Intent(this, InsertDataActivity::class.java)
+            val intent = Intent(this, InserirDadosActivity::class.java)
             startActivity(intent)
         }
 
