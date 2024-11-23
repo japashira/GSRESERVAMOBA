@@ -32,7 +32,7 @@
             android:name=".InserirDadosActivity"
             android:exported="true" />
         <activity
-            android:name=".HistoricoActivity"
+            android:name=".ListagemDadosActivity"
             android:exported="true" />
         <activity
             android:name=".EditarDadosActivity"

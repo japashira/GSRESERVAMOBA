@@ -11,7 +11,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.FirebaseDatabase
 
-class HistoricoActivity : AppCompatActivity() {
+class ListagemDadosActivity : AppCompatActivity() {
     private lateinit var listaHistorico: MutableList<Pair<String, Map<String, String>>>
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,7 +44,7 @@ class HistoricoActivity : AppCompatActivity() {
             }
 
             override fun onCancelled(error: com.google.firebase.database.DatabaseError) {
-                Toast.makeText(this@HistoricoActivity, "Erro ao carregar histórico.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@ListagemDadosActivity, "Erro ao carregar histórico.", Toast.LENGTH_SHORT).show()
             }
         })
     }

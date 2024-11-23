@@ -20,7 +20,7 @@ class MenuActivity : AppCompatActivity() {
         }
 
         btnHistorico.setOnClickListener {
-            val intent = Intent(this, HistoricoActivity::class.java)
+            val intent = Intent(this, ListagemDadosActivity::class.java)
             startActivity(intent)
         }
 
