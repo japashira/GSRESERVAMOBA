@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904694903705",
+    "project_id": "ecobrixgsmoba",
+    "storage_bucket": "ecobrixgsmoba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904694903705:android:8b3d91dfd2055158471908",
+        "android_client_info": {
+          "package_name": "com.example.ecobrixgsmoba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm-3OdKP2g5l3Ub1nep60ZFEfgXzgePDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
