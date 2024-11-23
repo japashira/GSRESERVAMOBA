@@ -13,7 +13,7 @@ class InserirDadosActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_insert_data)
+        setContentView(R.layout.activity_inserir_dados)
 
         val consumptionInput: EditText = findViewById(R.id.average_consumption)
         val deviceNameInput: EditText = findViewById(R.id.device_name)
